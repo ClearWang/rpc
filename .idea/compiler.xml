@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rpc-server" />
+        <module name="rpc-register-center" />
+        <module name="rpc-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pom-parent" target="1.8" />
+      <module name="rpc-client" target="1.8" />
+      <module name="rpc-register-center" target="1.8" />
+      <module name="rpc-server" target="1.8" />
+      <module name="rpc-server (1)" target="1.5" />
+      <module name="will-rpc" target="1.8" />
+      <module name="will-rpc (1)" target="1.5" />
+      <module name="will-rpc (2)" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rpc-client" options="-parameters" />
+      <module name="rpc-register-center" options="-parameters" />
+      <module name="rpc-server" options="-parameters" />
+    </option>
+  </component>
+</project>
